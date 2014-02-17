@@ -1,0 +1,17 @@
+1. 
+  a) If the sample size n is extremely large, and the number of predictors p is small, we would expect a flexible model to be better than an inflexible model. With few predictors, can model surface fairly well. Lots of observations.
+  b) If the reverse -- p large, n is small, we would expect a flexible model to be worse -- with small n, better to use an inflexible model. For example, a linear model would be a good guess over the observations. Otherwise, you could overfit the sparse observations. 
+  c) If predictors and response are highly nonlinear, a flexible model would better capture the nonlinearity
+  d) If the variance of the error term is high, it is better to use an inflexible model. The flexible model further inflates the variance of the error term, since the flexible model captures the variance in the error term. 
+  
+2.
+  a)500 firms = n; p = profit, employees, industry, CEO salary. which factors predict CEO salary? REGRESSION
+  b) p = success/failure, price, budget, price, + 10 others. CLASSIFICATION. n = 20
+  c) n = 52; change in us dollar in relation to weekly changes; 4 p; REGRESSION PROBLEM --- finding change in us dollars. 
+  
+  
+  3. Graphic [hand drawn on notes] 
+  
+  4. a) examples...
+  
+  5 Advantages of a flexible approach to regression or classification ---- it generally provides for lower bias. We take a complex real life problem and model it with a more flexible method, it should better approximate that problem. But there's a tradeoff with variance --- a disadvantage is that with a more flexible method we get more variance , the f-hat would change by a larger amount if we used a different set of data for training. --- ; 
